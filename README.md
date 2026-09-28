@@ -20,4 +20,22 @@ Created a custom table in ServiceNow as per the project requirements.
 - **Table Label:** Institution Details
 - **Table Name:** u_institution_details
 - Created custom table and submitted the form successfully.
+- ---
+
+# Milestone-3: Creation of Access Control List - READ
+
+## Overview
+Configured Access Control List (ACL) with READ operation for record-level security on the custom table.
+
+## Details
+- **Navigation:** Application Navigator -> System Security -> Access Control (ACL)
+- **Role Elevated:** Security_admin role
+- **Type:** record
+- **Operation:** read
+- **Name:** u_institution_details
+- **Active:** true
+- **Advanced:** true
+- **Required Role:** bb1 (custom role added in Requires role related list)
+- **Condition:** Branch is EEE
+-
 
